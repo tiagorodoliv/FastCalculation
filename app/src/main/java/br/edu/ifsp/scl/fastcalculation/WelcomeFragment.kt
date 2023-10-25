@@ -13,6 +13,8 @@ import br.edu.ifsp.scl.fastcalculation.databinding.FragmentWelcomeBinding
 class WelcomeFragment : Fragment() {
     private lateinit var fragmentWelcomeFragmentBinding: FragmentWelcomeBinding
     private lateinit var settings: Settings
+
+    val point = fragmentManager.
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
